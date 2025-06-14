@@ -8,7 +8,7 @@ int main() {
 
     // A Torre se move 5 casas para a direita
     const int movimentoTorre = 5;
-    printf("=== Movimento da Torre (5 casas para a Direita) ===\n");
+    printf("Movimento da Torre (5 casas para a Direita)\n");
     for (int i = 1; i <= movimentoTorre; i++) {
         printf("Direita (%d)\n", i);
     }
@@ -17,7 +17,7 @@ int main() {
     const int movimentoBispo = 5;
     int contadorBispo = 1;
 
-    printf("\n=== Movimento do Bispo (5 casas na Diagonal Cima Direita) ===\n");
+    printf("\nMovimento do Bispo (5 casas na Diagonal Cima Direita)\n");
     while (contadorBispo <= movimentoBispo) {
         printf("Cima Direita (%d)\n", contadorBispo);
         contadorBispo++;
@@ -27,7 +27,7 @@ int main() {
     const int movimentoRainha = 8;
     int contadorRainha = 1;
 
-    printf("\n=== Movimento da Rainha (8 casas para a Esquerda) ===\n");
+    printf("\nMovimento da Rainha (8 casas para a Esquerda)\n");
     do {
         printf("Esquerda (%d)\n", contadorRainha);
         contadorRainha++;
